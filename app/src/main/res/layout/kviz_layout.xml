@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="#858080"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="4px">
+
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/kvizGrid"
+        android:layout_width="wrap_content"
+        android:layout_height="133dp"
+        android:background="#9EB9C5"
+        app:columnCount="2"
+        app:rowCount="3">
+
+        <ImageView
+            android:id="@+id/status"
+            android:layout_width="20dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="5dp"
+            app:layout_column="1"
+            app:layout_row="0"
+            app:srcCompat="@android:drawable/btn_dialog" />
+
+        <TextView
+            android:id="@+id/predmet"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Naziv"
+            android:textSize="18sp"
+            app:layout_column="0"
+            app:layout_columnSpan="2"
+            app:layout_row="1" />
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#B8B4B4"
+            app:columnCount="2"
+            app:layout_columnSpan="2"
+            app:layout_row="2"
+            app:rowCount="3">
+
+            <TextView
+                android:id="@+id/naziv"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="TextView"
+                app:layout_columnSpan="2" />
+
+            <TextView
+                android:id="@+id/datum"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="TextView"
+                app:layout_columnSpan="2" />
+
+            <TextView
+                android:id="@+id/trajanje"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/bodovi"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="TextView" />
+        </androidx.gridlayout.widget.GridLayout>
+
+    </androidx.gridlayout.widget.GridLayout>
+
+</androidx.cardview.widget.CardView>

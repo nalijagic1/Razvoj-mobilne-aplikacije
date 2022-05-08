@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">rma21projekat</string>
+    <string-array name="Spinner">
+        <item>Svi moji kvizovi</item>
+        <item>Svi kvizovi</item>
+        <item>Urađeni kvizovi</item>
+        <item>Budući kvizovi</item>
+        <item>Prošli kvizovi</item>
+    </string-array>
+    <string-array name="Godine">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string name="title_activity_dodavanje">DodavanjeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
